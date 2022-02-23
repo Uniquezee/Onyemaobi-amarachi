@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.top-container{
+    background-color: #EAF6F8;
+    margin: 0;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 0px;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+span{
+    text-decoration: underline;
+}
+hr{
+    border-style:dotted;
+    border-width: 3px;
+    border-color: #6d8f8f;
+    width: 4%;
+    border-bottom: none;
+    border-spacing: 50px;
+    margin: 100px auto
+}
+p{
+    padding: 5px;
+    line-height: 2;
+}
+.about-me{
+    width: 30%;
+    margin: 0 auto;
+}
+.middle-container{
+    /* background-color: #6d8f8f; */
+    margin: 100px 0;
+}
+.profile{
+    padding-top: 50px;
+}
+.contact.mess{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.skill-row{
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto;
+    border-top: solid 10px;
+    text-align: left;
+    line-height: 2;
+}
+.image1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.image2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.contact-me{
+    position: relative;
+    margin-bottom: 200px;
+}
+.btn{
+    background-color: rgb(30, 193, 199);
+    /* margin: 0px auto 20px auto; */
+    position: absolute;
+    top:200px;
+    right: 600px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color:yellowgreen;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px  0px 20px 50px;
+}
+.footer-link{
+    position: relative;
+    margin: 50px;
+    text-decoration: none;
+    color: #11999E;
+}
+.footer-cite{
+    color: #EAF6F6;
+    /* position: absolute; */
+    margin: 100px 0px 10px 0px;
+    padding: 20px 0;
+}
+/* .clear{
+    clear: right;
+} */
