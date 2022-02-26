@@ -131,3 +131,33 @@ p{
 /* .clear{
     clear: right;
 } */
+.portfolio{
+    
+    background-color: #eee;
+    padding: 80px 40px;
+}
+.portfolio h1{
+    font-family: sans-serif;
+    color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 7px 0px;
+    display: inline-block;
+    border-bottom: 6px solid rgb(30, 193, 199);
+}
+.portfolio-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-gallery img{
+    width: 500px;
+    margin: 10px;
+    /* height: 500px; */
+    transition: all 1s;
+}
+.portfolio-gallery img:hover{
+    transform: scale(1.1);
+    
+}
